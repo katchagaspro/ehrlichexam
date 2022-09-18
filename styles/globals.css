@@ -88,3 +88,55 @@ body {
   border-radius: 50%;
   margin-right: 15px;
 }
+
+.home-deals {
+  text-transform: uppercase;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.home-deals .amount {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.home-deals .off {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  vertical-align: super;
+}
+
+.home-deals .description {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.home-deals .deals-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-deals .deals-button-container button {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0;
+}
